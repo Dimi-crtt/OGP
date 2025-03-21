@@ -65,7 +65,7 @@ int lab6_1() {
 	return 0;
 }
 
-int lab6_2_8() {
+int lab6_2() {
 	const int size = 10000;
 	int mas[size];
 	int n;
@@ -188,7 +188,6 @@ int lab6_4() {
 			for (int j = i; j < n - 1; j++) {
 				mas[j] = mas[j + 1];
 			}
-			i--;
 			n--;
 		}
 	}
